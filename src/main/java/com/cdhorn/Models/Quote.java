@@ -7,16 +7,16 @@ public class Quote {
     @Id
     public Long id;
 
-    public String episode;
+    public int doctor;
     public String quote;
 
-    public Quote(String episode, String quote) {
-        this.episode = episode;
+    public Quote(int doctor, String quote) {
+        this.doctor = doctor;
         this.quote = quote;
     }
 
-    public String getEpisode() {
-        return episode;
+    public int getDoctor() {
+        return doctor;
     }
 
     public String getQuote() {
@@ -27,7 +27,7 @@ public class Quote {
     public String toString() {
         return "Quote{" +
                 "id=" + id +
-                ", episode='" + episode + '\'' +
+                ", doctor= number '" + doctor + '\'' +
                 ", quote='" + quote + '\'' +
                 '}';
     }

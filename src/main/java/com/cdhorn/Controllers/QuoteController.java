@@ -6,7 +6,9 @@ import com.mongodb.MongoClient;
 
 public class QuoteController {
 
+
     MongoClient mongoClient = new MongoClient("localhost", 27017);
-    DB db = mongoClient.getDB("doctorquotedb");
+    DB db = mongoClient.getDB("doctorwhodb");
     DBCollection table = db.getCollection("quote");
+
 }
