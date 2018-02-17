@@ -1,6 +1,6 @@
 # Doctor :question: API 
 
-I decided to build an API using **Java 8** backed by a **Mongo DB** to replace san API I was using that was no longer returning a response.  
+I decided to build an API using **Java 8** backed by a **Mongo DB** to replace an API I was using that was no longer returning a response.  
 
 I'm using IntelliJ IDEA with the Mongo Explorer plugin. 
 
